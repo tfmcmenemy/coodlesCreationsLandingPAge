@@ -51,12 +51,12 @@ body {
   display: grid;
   grid-template-rows: 60%;
 
-  @media screen and (orientation: landscape) {
+  @media (width > 750px) and (height < 500px) {
     display: flex;
   }
 
   .logo {
-    @media screen and (orientation: landscape) {
+    @media (width > 750px) and (height < 500px) {
       display: none;
     }
     height: 300px;
@@ -84,7 +84,7 @@ body {
 
     font-size: 14px;
 
-    @media screen and (orientation: landscape) {
+    @media (width > 750px) and (height < 500px) {
       width: 100%;
       padding-top: 50px;
     }
@@ -97,7 +97,7 @@ body {
 
     font-size: 40px;
 
-    @media screen and (orientation: landscape) {
+    @media (width > 750px) and (height < 500px) {
       width: 100%;
       padding-top: 50px;
     }
