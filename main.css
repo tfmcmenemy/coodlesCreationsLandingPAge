@@ -176,6 +176,10 @@ body {
     align-items: center;
     gap: 10px;
 
+    &.pending{
+      color:#bca0bf;
+    }
+
     .title {
       font-size: 25px;
       font-weight: 600;
